@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IA primeros auxilios</title>
+  </head>
+  <body>
+    <h1>Primeros Auxilios con IA</h1>
+
+        <main>
+          <section class="sectionExplicacion">
+            <details>
+              <summary>¿Comó funciona?</summary>
+              <p>Introduce tu situacion medica tan simple o tan especifica como tu queiras. La IA ayudara a darte la solucion de primeros auxilios para que despues puedas acudir al Doctor, <strong>recuerda que una IA no puede remplazar a un Doctor</strong>.</p>
+              <ul>
+                <li>Ejemplo corto: me corte un dedo.</li>
+                <li>Ejemplo especifico: me corte un dedo con un cuchillo y no puedo mover la mano.</li>
+              </ul>
+            </details>
+          </section>
+            <section class="sectionFormulario">
+                <form class="formulario">
+                    <label>
+                        <input type="text" placeholder="Ingresa tu solicitud" class="inputConsulta" name="consulta">
+                    </label>
+                    <button class="botonConsultar">Consultar</button>
+                </form>
+            </section>
+
+            <section class="sectionLimpiar">
+                <button class="botonLimpiar">Limpiar chat</button>
+            </section>
+
+            <section class="sectionRespuesta">
+                <p class="respuesta">
+                  Aquí saldra tu respuesta.
+                </p>
+            </section>
+        </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

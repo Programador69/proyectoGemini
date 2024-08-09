@@ -1,0 +1,75 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  /* background: linear-gradient(#03aaaa, #cfd3d3); */
+  background: linear-gradient(#03aaaa, #d747d8);
+  background-clip: text;
+  color: transparent;
+}
+
+summary {
+  color: #0578ad;
+}
+
+.sectionExplicacion p, .sectionExplicacion ul li {
+  margin-bottom: 10px;
+}
+
+.sectionExplicacion p strong {
+  color: #0578ad;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+form label{
+  width: 70%;
+}
+
+form label input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px dashed #910191;
+}
+
+form label input::placeholder {
+  color: #000;
+}
+
+.botonConsultar {
+  background-color: #ffe;
+  border: 2px solid #70038b;
+  border-radius: 5px;
+}
+
+.sectionLimpiar {
+  display: flex;
+  justify-content: center;
+}
+
+.botonLimpiar {
+  padding: 5px;
+  background-color: #ffe;
+  border: 2px solid #39b6ff;
+  border-radius: 5px;
+}
+
+.sectionRespuesta {
+  display: flex;
+  justify-content: center;
+}
+
+.respuesta {
+  text-align: justify;
+  padding: 5px;
+  line-height: 1.4;
+}
